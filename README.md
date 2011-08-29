@@ -5,7 +5,7 @@ This is a copy of the original web site written by [_why](http://en.wikipedia.or
 
 It's now gone. :(
 
-![000.jpg](https://github.com/spiralofhope/shoes_tutorial_walkthrough/raw/master/imgs/000.jpg)
+![000.jpg](imgs/000.jpg)
 
 In case you've just arrived: Shoes is a graphics toolkit for writing colorful apps using [the Ruby programming language](http://www.ruby-lang.org/en/).  Ruby is built into Shoes.
 
