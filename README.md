@@ -43,6 +43,7 @@ Shoes.app {
   }
 }
 ```
+<!-- `` Fixing geany syntax highlighting -->
 
 Stacks are essential! The most important two elements in Shoes are *stacks* and *flows*.
 
@@ -63,6 +64,7 @@ Shoes.app {
   }
 }
 ```
+<!-- `` -->
 
 We also painted the *background* white. Did you see that?
 
@@ -86,6 +88,7 @@ Shoes.app {
   )
 }
 ```
+<!-- `` -->
 
 The Shoes brush always starts out black.
 
@@ -112,6 +115,7 @@ Shoes.app {
   )
 }
 ```
+<!-- `` -->
 
 The *fill* is red on these shapes. And the *stroke* is black. (Because we didn't change it.) These two pens - stroke and fill - draw every shape.
 
@@ -123,6 +127,8 @@ TODO:  Change the colour of the two shapes.  Then update the screenshot.
 
 ----------------------
 
+![Aaaa.  My sweet children, I have kidnapped you!  And brought you to my secret Shoes study class!!](https://github.com/spiralofhope/shoes_tutorial_walkthrough/raw/master/imgs/nks-kidnap.png)
+
 Of course, you can always design your app with an *image*. Even images from the web!
 
 ```ruby
@@ -130,17 +136,18 @@ Shoes.app {
   image "http://spiralofhope.com/i/ruby-shoes--nks-kidnap.png"
 }
 ```
+<!-- `` -->
 <!--
 As of 2011-08-27, GitHub does not allow hotlinking.  If a Shoes program tries to use an image that is stored on a GitHub server, nothing will display.  This is why this example image must be hosted elsewhere.  The image will still be placed in the github repository and referred-to locally, so we don't ever lose it.
 
 The remotely-hosted image was also edited to remove the toolbar.  It's been archived locally (nks-kidnap--modified.png) so it doesn't get lost.
 -->
 
-![Aaaa.  My sweet children, I have kidnapped you!  And brought you to my secret Shoes study class!!](https://github.com/spiralofhope/shoes_tutorial_walkthrough/raw/master/imgs/nks-kidnap.png)
-
 Shoes even caches images in memory and on disk, like browsers do. Images are loaded in background threads as well, to prevent apps from slowing down.
 
 ----------------------
+
+![007.png](https://github.com/spiralofhope/shoes_tutorial_walkthrough/raw/master/imgs/007.png)
 
 Now, a very important element: the *para*. As in: paragraph. Probably the third most important element (after stacks and flows.)
 
@@ -149,10 +156,11 @@ Shoes.app {
   para strong("Q."), " Are you beginning to grasp hold of Shoes?"
 }
 ```
-
-![007.png](https://github.com/spiralofhope/shoes_tutorial_walkthrough/raw/master/imgs/007.png)
+<!-- `` -->
 
 ----------------------
+
+![008.png](https://github.com/spiralofhope/shoes_tutorial_walkthrough/raw/master/imgs/008.png)
 
 Beyond para, you've got *title* and *subtitle*, which are bigger fonts. You can add a bunch of font styles as well. Look for *strong* and *em* in this bit.
 
@@ -165,8 +173,7 @@ Shoes.app {
   }
 }
 ```
-
-![008.png](https://github.com/spiralofhope/shoes_tutorial_walkthrough/raw/master/imgs/008.png)
+<!-- `` -->
 
 ----------------------
 
@@ -180,6 +187,7 @@ Shoes.app {
   @note = para "Nothing pushed so far"
 }
 ```
+<!-- `` -->
 
 ----------------------
 
@@ -196,6 +204,7 @@ Shoes.app {
   }
 }
 ```
+<!-- `` -->
 
 ----------------------
 
@@ -215,6 +224,7 @@ Shoes.app do
   )
 end
 ```
+<!-- `` -->
 
 In this example, I used *do* and end *rather* than the braces `{` and `}`. They have the same meaning.
 
@@ -240,6 +250,7 @@ Shoes.app do
   end
 end
 ```
+<!-- `` -->
 
 ----------------------
 
@@ -255,8 +266,12 @@ Shoes.app do
   end
 end
 ```
+<!-- `` -->
 
 ----------------------
+
+![014.png](https://github.com/spiralofhope/shoes_tutorial_walkthrough/raw/master/imgs/014.png)
+<!-- TODO:  An animated PNG -->
 
 On to a taste of animation. The Shoes icon moves randomly a bunch of times each second.
 
@@ -273,8 +288,7 @@ Shoes.app do
   end
 end
 ```
-
-![014.png](https://github.com/spiralofhope/shoes_tutorial_walkthrough/raw/master/imgs/014.png)
+<!-- `` -->
 
 ----------------------
 
@@ -305,6 +319,7 @@ The scenery."
   )
 end
 ```
+<!-- `` -->
 
 So, when the link gets clicked, the stack gets cleared. The poem will disappear.
 
@@ -328,6 +343,7 @@ Shoes.app(:width => 300, :height => 400) do
   end
 end
 ```
+<!-- `` -->
 
 Don't worry if you haven't picked up a whole lot reading through these. To get the hang of it, you'll need to alter these yourself. Try fiddling with the numbers and colors. Experiment, you know?
 
