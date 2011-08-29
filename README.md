@@ -255,6 +255,9 @@ end
 ----------------------
 
 ![013.png](https://github.com/spiralofhope/shoes_tutorial_walkthrough/raw/master/imgs/013.png)
+<!--
+TODO:  An animated PNG
+-->
 
 In this one, we make a five-point star. And it follows the mouse around as you move.
 
@@ -271,7 +274,9 @@ end
 ----------------------
 
 ![014.png](https://github.com/spiralofhope/shoes_tutorial_walkthrough/raw/master/imgs/014.png)
-<!-- TODO:  An animated PNG -->
+<!--
+TODO:  An animated PNG
+-->
 
 On to a taste of animation. The Shoes icon moves randomly a bunch of times each second.
 
@@ -295,6 +300,7 @@ end
 ![015.png](https://github.com/spiralofhope/shoes_tutorial_walkthrough/raw/master/imgs/015.png)
 <!--
 TODO:  Update this screenshot to remove the blank line at the top.
+TODO:  An animated PNG
 -->
 
 Remember a few examples ago when we handled a button click? How about doing the same with a link?
@@ -326,6 +332,9 @@ So, when the link gets clicked, the stack gets cleared. The poem will disappear.
 ----------------------
 
 ![016.png](https://github.com/spiralofhope/shoes_tutorial_walkthrough/raw/master/imgs/016.png)
+<!--
+TODO:  An animated PNG
+-->
 
 Okay, last one for now. Let's generate a hundred random circles. This example also uses the *rgb* method to make colors from red, green and blue fractions.
 
