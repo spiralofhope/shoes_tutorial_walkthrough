@@ -344,4 +344,6 @@ The pdf should be hosted under direct control, probably shoesrb.com
 <!--
 TODO:  If any one screenshot is updated, all screenshots must be updated.  =(
 TODO:  Consider colour for colourblindness?  e.g. don't use red.
+
+DISCUSS:  I notice that these examples are being references by new users.  They say something like "I cannot run 001.rb".  I removed the src/ directory because this is about a first introduction and not necessarily running the code on a new installation.  Perhaps I am wrong?  Perhaps the examples each need an anchor/label.
 -->
